@@ -60,13 +60,19 @@ function addToGridArray() {
 }
 
 function addColorToGrid() {
-    for (var rowCount = 0; rowCount < gameArray.length; rowCount++) {
+    for (var rowCount = gameArray.length-1; rowCount >= 0; rowCount--) {
         for (var columnCount = 0; columnCount < gameArray[rowCount].length; columnCount++) {
             if (gameArray[rowCount][columnCount] === 1) {
-                 $('.row:eq(rowCount) > .col:eq(columnCount)').css('color', 'red');
+                var selector = ".row" + rowCount + " .col" + columnCount;
+                $(selector).css('background-color', 'red');
             } else if (gameArray[rowCount][columnCount] === 0) {
-                $('.row:eq(rowCount) > .col:eq(columnCount)').css('color', 'blue');
+                var selector = ".row" + rowCount + " .col" + columnCount;
+                $(selector).css('background-color', 'blue');
             }
         }
     }
 }
+
+///var selector = ".row" + rowCount + " .col" + columnCount
+//   $(selector)
+//$('.row0 .col0')
