@@ -372,7 +372,7 @@ function resetGame() { //function that resets the game, including player colors 
     $(".modal-shadow").addClass("hidden-modal");
     $('.choose-color-page').show();
     $('.game_area').hide();
-    $('.title').text("Player One: Choose Your Color");
+    $('.title').text("Player One: Choose Your Diety");
     $('.hades-modal-shadow').addClass('hidden-modal');
     $(".toggleAI, .togglePlayerNumber").show();
     $('.togglePlayerNumber').text("THREE PLAYER MODE");
