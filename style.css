@@ -60,7 +60,7 @@ body {
 }
 
 
-.choose-color-page {
+.choose-god-page {
     height: auto;
     width: 100%;
 }
@@ -142,7 +142,7 @@ body {
     font-family: diogenes;
     color: white;
     height: 60%;
-    
+    text-shadow: 0 0 10px black;
 }
 .mainTitle{
     position: relative;
@@ -153,6 +153,7 @@ body {
     font-family: diogenes;
     color: white;
     height: 60%;
+    text-shadow: 0 0 10px black;
 }
 
 .gameTitle {
@@ -164,9 +165,10 @@ body {
     font-family: diogenes;
     color: white;
     height: 100%;
+    text-shadow: 0 0 10px black;
 }
 
-.color-section {
+.god-section {
     height: 70%;
     width: 100%;
 }
@@ -179,7 +181,7 @@ body {
 
 
 
-.color-container {
+.god-container {
     display: inline-block;
     height: 100%;
     width: 35%;
@@ -194,7 +196,7 @@ body {
     font-family: diogenes;
 }
 
-.red, .blue, .gold, .green {
+.ares, .artemis, .athena, .poseidon {
     display: inline-block;
     height: 80%;
     border-radius: 50%;
@@ -203,24 +205,24 @@ body {
     cursor: pointer;
 }
 
-.red {
+.ares {
     background: url("./Images/Ares.jpg") no-repeat center;
     background-size: cover;
 }
 
-.blue {
+.artemis {
     background: url("./Images/Artemis.jpg") no-repeat center;
     background-size: cover;
     background-position: 70%;
 }
 
-.gold {
+.athena {
     background: url("./Images/Athena.jpg") no-repeat center;
     background-size: cover;
     background-position: 0 10%;
 }
 
-.green {
+.poseidon {
     background: url("./Images/Poseidon.jpg") no-repeat center;
     background-size: cover;
     background-position: 10%;
